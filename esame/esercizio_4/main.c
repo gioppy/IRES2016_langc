@@ -4,11 +4,11 @@
 #include "studente.h"
 
 int main(){
-  Studente studenti[1000];
+  Studente studenti[100000];
   int size = sizeof(studenti) / sizeof(Studente);
   int i = 0;
-  //Cognome_ + numero a 4 cifre + carattere di fine riga
-  int cognome_length = 13;
+  //Cognome_ + numero a 7 cifre + carattere di fine riga
+  int cognome_length = 16;
   int voti_sum = 0;
 
   for(; i < size; ++i){
